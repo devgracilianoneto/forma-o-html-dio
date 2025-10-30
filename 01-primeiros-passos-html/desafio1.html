@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1 - Formação HTML</title>
+</head>
+<body>
+    <h1>Introdução ao HTML</h1>
+    <hr>
+
+    <h2>Sumário:</h2>
+    <ul>
+        <li><a href="#estrutura">Estrutura básica do HTML</a></li>
+        <li><a href="#tags">Falando sobre tags</a></li>
+        <li><a href="#atributos-tags">Atributo das tags</a></li>
+        <li><a href="#textos">Textos</a></li>
+        <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+        <li><a href="#links">Links</a></li>
+    </ul>
+    <hr>
+    <br>
+
+    <h2 id="estrutura">Estrutura básica do HTML</h2>
+
+    <p>HTML é uma linguagem de marcação composta por tags que envolvem o conteúdo e o estruturam de forma hierárquica. Cada página HTML começa com uma tag <u><i><strong>DOCTYPE html</strong></i></u>, indicando a versão do HTML que está sendo usada. O elemento <u><i><strong>html</strong></i></u> engloba todo o conteúdo da página, enquanto <u><i><strong>head</strong></i></u> contém informações como o título da página, links para folhas de estilo e meta informações.</p>
+
+    <h3>Resumo:</h3>
+
+    <ol>
+        <li><mark>Tag html:</mark> Tag usada para delimitar que todo o contéudo dentra da mesma possui a um arquivo HTML. (Obrigação de fechamento).</li>
+        <li><mark>Tag head:</mark>Tag para delimitar a configurações do arquivo HTML, as informações presentes nesta tag são pré carregadas antes da exibição do contéudo.</li>
+        <li><mark>Tag body:</mark>Tag usada para delimitar todo o contéudo visivel para o cliente no nevegador.</li>
+    </ol>
+    <br>
+
+    <h2 id="tags">Falando sobre tags</h2>
+
+    <p>Tags HTML em sua maioria possuem abertura e fechamento, e todo o contéudo entre uma e outra recebe a propriedade da tag em questão.</p>
+    <p>Algumas tags não possuem fechamento, o fechamento está embutido dentro da propria tag.</p>
+    <p>Outra dica é a sobreposição de tags, é permitido aninhar tags, exemp´lo transformar um texto em negrito e itálico.</p>
+    <br>
+
+    <h2 id="atributos-tags">Atributo das tags</h2>
+
+    <p>Atributos são propriedades que uma determianda tag pode possuir.</p>
+    <p>Importante salientar que existem atributos padrões que são permitidas em qualquer tag HTML, mas existem alguns atributos únicos para tag sem especifico. </p>
+
+    <h3>Atributos mais comuns</h3>
+
+    <ol>
+        <li><mark>id:</mark> Fornece um identificador exclusivo para um único elemento na página.</li>
+        <li><mark>class:</mark> Fornece um nome de classe que pode ser aplicado a múltiplos elementos.</li>
+        <li><mark>style:</mark> Permite aplicar regras de CSS diretamente ao elemento HTML.</li>
+    </ol>
+
+    <h3>Atributos especifícos</h3>
+
+    <ol>
+        <li><mark>type:</mark> Indica o tipo de dado que está sendo transmitido ou o comportamento do controle de formulário.</li>
+        <li><mark>src:</mark> Especifica a URL (caminho) do arquivo externo que o elemento deve carregar.</li>
+    </ol>
+    <br>
+
+    <h2 id="textos">Textos</h2>
+
+    <h3>Tags para estruturas básicas de conteúdo</h3>
+
+    <ul>
+        <li>
+            <h4>Tag h1 ao h6</h4>
+            <p>Define títulos e subtítulos de uma seção. h1 é o mais importante (nível 1) e deve ser usado apenas uma vez por página para o título principal. h6 é o menos importante (nível 6).</p>
+        </li>
+        <li>
+            <h4>Tag p</h4>
+            <p>Define um parágrafo de texto. É a tag mais comum para blocos de texto.</p>
+        </li>
+        <li>
+            <h4>Tag div</h4>
+            <p>Define uma divisão ou seção de um documento. É uma tag genérica usada para agrupar conteúdo em bloco e aplicar estilos (CSS) ou manipulá-lo (JavaScript).</p>
+        </li>
+        <li>
+            <h4>Tag br</h4>
+            <p>Insere uma quebra de linha única.</p>
+        </li>
+        <li>
+            <h4>Tag hr</h4>
+            <p>Define uma linha horizontal temática, usada para separar visualmente seções de conteúdo.</p>
+        </li>
+        <li>
+            <h4>Tag pre</h4>
+            <p>Define um texto pré-formatado. O texto dentro dela é exibido em uma fonte de largura fixa e mantém os espaços em branco e quebras de linha exatamente como foram escritos no código.</p>
+        </li>
+    </ul>
+    <br>
+
+    <h2 id="listas">Listas Ordenadas e Não Ordenadas</h2>
+
+    <h3>Lista Não Ordenada</h3>
+
+    <p>É usada quando a ordem dos itens não é importante. Cada item da lista é marcado por um marcador de ponto (bullet point) padrão.</p>
+    <blockquote>
+        <abbr title="O elemento contêiner que define o início e o fim da lista não ordenada.">
+            <mark>Tag: < ul ></mark>
+        </abbr>
+    </blockquote>
+    
+
+     <h3>Lista Ordenada</h3>
+    
+    <p>É usada quando a ordem dos itens é importante ou sequencial (por exemplo, um passo a passo, um ranking ou um índice). Cada item da lista é marcado por um número ou letra por padrão.</p>
+    <blockquote>
+        <abbr title="O elemento contêiner que define o início e o fim da lista ordenada.">
+            <mark>Tag: < ol ></mark>
+        </abbr>
+    </blockquote>
+
+    <br>
+
+    <h2 id="links">Links</h2>
+
+    <h3>A Tag < a > (Âncora)</h3>
+    <p>O elemento < a > é usado para criar um hiperlink para outras páginas, arquivos, endereços de e-mail, locais dentro da mesma página ou qualquer outro recurso que uma URL possa endereçar.</p>
+
+    <h4>Sintaxe Básica</h4>
+    <p><blockquote>< a href="URL_DE_DESTINO" >Texto do Link< /a ></blockquote></p>
+    
+</body>
+</html>
